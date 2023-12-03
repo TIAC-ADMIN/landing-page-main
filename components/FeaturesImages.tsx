@@ -82,7 +82,7 @@ const FeaturesImages: FC = () => {
                   className="font-poppins font-bold text-2xl text-white"
                   variants={childVariant}
                 >
-                  Exercitation
+                  MABOKONI VILLAGE SKATEPARK
                 </motion.h4>
                 <motion.p className="text-white/50" variants={childVariant}>
                   Ullamco laboris{" "}
@@ -111,7 +111,7 @@ const FeaturesImages: FC = () => {
                   className="font-poppins font-bold text-2xl text-white"
                   variants={childVariant}
                 >
-                  Exercitation
+                  Solar Well
                 </motion.h4>
                 <motion.p className="text-white/50" variants={childVariant}>
                   Ullamco laboris{" "}
@@ -140,7 +140,7 @@ const FeaturesImages: FC = () => {
                   className="font-poppins font-bold text-2xl text-white"
                   variants={childVariant}
                 >
-                  Exercitation
+                  Arts Centre
                 </motion.h4>
                 <motion.p className="text-white/50" variants={childVariant}>
                   Ullamco laboris{" "}

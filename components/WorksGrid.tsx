@@ -15,11 +15,10 @@ const WorksGrid: FC = () => {
         <div className="flex flex-col items-center p-4 py-12 cursor-pointer hover:shadow-xl">
           <Image src={image1} alt="image1" />
           <h4 className="font-bold font-poppins text-2xl text-fontBlack">
-            Consequuntur
+            Community engagement
           </h4>
           <p className="text-fontBlack/50 text-center md:w-[322px]">
-            Enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit
+            Think global, act local.
           </p>
         </div>
       </FadeIn>
@@ -28,11 +27,11 @@ const WorksGrid: FC = () => {
         <div className="flex flex-col items-center cursor-pointer hover:shadow-xl p-4 py-12">
           <Image src={image2} alt="image2" />
           <h4 className="font-bold font-poppins text-2xl text-fontBlack">
-            Voluptatem
+            Reduction of Risky Behaviors
           </h4>
           <p className="text-fontBlack/50 text-center md:w-[322px]">
-            Sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam
+            Structured after-school programs reduce the risk of children
+            engaging in risky behaviors or negative peer groups.
           </p>
         </div>
       </FadeIn>
@@ -41,10 +40,11 @@ const WorksGrid: FC = () => {
         <div className="flex flex-col items-center cursor-pointer hover:shadow-xl p-4 py-12">
           <Image src={image3} alt="image3" />
           <h4 className="font-bold font-poppins text-2xl text-fontBlack">
-            Quisquam
+            Safe and Supervised Environment
           </h4>
           <p className="text-fontBlack/50 text-center md:w-[322px]">
-            Quis nostrum exercitationem ullam corporis suscipit laboriosam
+            We provide a safe and supervised space for children during the
+            after-school hours.
           </p>
         </div>
       </FadeIn>
@@ -53,11 +53,11 @@ const WorksGrid: FC = () => {
         <div className="flex flex-col items-center cursor-pointer hover:shadow-xl p-4 py-12">
           <Image src={image4} alt="image4" />
           <h4 className="font-bold font-poppins text-2xl text-fontBlack">
-            Aliquid
+            Skill Development
           </h4>
           <p className="text-fontBlack/50 text-center md:w-[322px]">
-            Quis autem vel eum iure reprehenderit voluptate velit esse quam
-            nihil
+            After school activities help children discover and develop their
+            talents and interests.
           </p>
         </div>
       </FadeIn>

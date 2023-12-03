@@ -40,13 +40,13 @@ const HomeComponent: FC = () => {
       <div className="flex flex-col items-start gap-5">
         <FadeIn delay={0.2} direction="right">
           <h5 className="uppercase font-bold font-poppins text-fontBlack">
-            What We Do
+            WHY EMPOWERING THE YOUTH ?
           </h5>
         </FadeIn>
 
         <FadeIn delay={0.4} direction="right">
           <h2 className="font-poppins font-bold lg:text-[56px] lg:leading-[64px] lg:w-[498px] sm:w-[356px] text-[40px] leading-[48px]">
-            Social Change thought Arts , Education & Sports
+            Inclusion, Expression, Results.
           </h2>
         </FadeIn>
 
@@ -63,7 +63,10 @@ const HomeComponent: FC = () => {
                 scale: 1.05,
               }}
             >
-              <p className="font-semibold text-fontBlack">Totam rem aperiam</p>
+              <p className="font-semibold text-fontBlack">
+                {" "}
+                Promoting Inclusion and Diversity
+              </p>
               <motion.div
                 animate={{ rotate: p1 ? 180 : 0 }}
                 initial={{ rotate: 0 }}
@@ -81,10 +84,8 @@ const HomeComponent: FC = () => {
                   animate="visible"
                   exit="hidden"
                 >
-                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                  nihil impedit quo minus id quod maxime placeat facere
-                  possimus, omnis voluptas assumenda est, omnis dolor
-                  repellendus.
+                  Inclusion and diversity ensure that everyone has equal access
+                  to opportunities and resources, regardless of their background
                 </motion.p>
               )}
             </AnimatePresence>
@@ -104,7 +105,9 @@ const HomeComponent: FC = () => {
                 scale: 1.05,
               }}
             >
-              <p className="font-semibold text-fontBlack">Eaque ipsa quae</p>
+              <p className="font-semibold text-fontBlack">
+                Creating opportunities
+              </p>
               <motion.div
                 animate={{ rotate: p2 ? 180 : 0 }}
                 initial={{ rotate: 0 }}
@@ -123,10 +126,9 @@ const HomeComponent: FC = () => {
                   animate="visible"
                   exit="hidden"
                 >
-                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                  nihil impedit quo minus id quod maxime placeat facere
-                  possimus, omnis voluptas assumenda est, omnis dolor
-                  repellendus.
+                  Investments in creating opportunities have a long-term
+                  positive impact on individuals, families and communities.
+                  confidence, and resilience.
                 </motion.p>
               )}
             </AnimatePresence>
@@ -146,9 +148,7 @@ const HomeComponent: FC = () => {
                 scale: 1.05,
               }}
             >
-              <p className="font-semibold text-fontBlack">
-                Inventore veritatis
-              </p>
+              <p className="font-semibold text-fontBlack">Social Justice</p>
               <motion.div
                 animate={{ rotate: p3 ? 180 : 0 }}
                 initial={{ rotate: 0 }}
@@ -166,10 +166,9 @@ const HomeComponent: FC = () => {
                   animate="visible"
                   exit="hidden"
                 >
-                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                  nihil impedit quo minus id quod maxime placeat facere
-                  possimus, omnis voluptas assumenda est, omnis dolor
-                  repellendus.
+                  We seek to create a society where fairness, equality and human
+                  dignity are upheld, where disparities are addressed, and where
+                  all individuals aim to reach their full potential.
                 </motion.p>
               )}
             </AnimatePresence>
@@ -180,9 +179,12 @@ const HomeComponent: FC = () => {
       {/*video  */}
       <FadeIn delay={0.2} direction="left">
         <div className="relative">
-          <Image src="https://utfs.io/f/750741fc-fa14-473d-8c38-d770992b0be8-byxozn.jpg" alt="home image" className="w-full" 
-          width={600}
-          height={600}
+          <Image
+            src="https://utfs.io/f/750741fc-fa14-473d-8c38-d770992b0be8-byxozn.jpg"
+            alt="home image"
+            className="w-full"
+            width={600}
+            height={600}
           />
           {/* <div className="bg-white shadow-lg lg:h-[116px] lg:w-[116px] h-[58px] w-[58px] rounded-full flex items-center justify-center absolute lg:-left-12 top-1/2 -translate-x-1/2 lg:translate-x-0 -translate-y-1/2 left-1/2">
             <RxTriangleRight className="lg:text-5xl text-3xl text-secondary" />
