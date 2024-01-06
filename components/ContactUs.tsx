@@ -39,7 +39,7 @@ const ContactUs: FC = () => {
       <div className="h-[1px] w-screen bg-black/10 mt-20 lg:mt-48"></div>
 
       {/* footer */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

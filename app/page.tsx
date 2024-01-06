@@ -16,9 +16,9 @@ export default function Home() {
       <HomeComponent />
       <Features />
       <Works />
-      <About />
-      <People />
-      <News />
+      {/* <About /> */}
+      {/* <People /> */}
+      {/* <News /> */}
       <ContactUs />
     </div>
   );

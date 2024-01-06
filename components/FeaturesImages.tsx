@@ -7,25 +7,36 @@ import Image from "next/image";
 import { motion, useAnimation, Variants } from "framer-motion";
 
 const FeaturesImages: FC = () => {
+  const Images = [image1, image2, image3];
+
+  // hovered state
   const [isHovered1, setHovered1] = useState<boolean>(false);
 
+  // handler to set the hovered state to oposite its value
   const handleHover1 = () => {
     setHovered1(!isHovered1);
   };
+
+  // hovered state
   const [isHovered2, setHovered2] = useState<boolean>(false);
 
+  // handler to set the hovered state to oposite its value
   const handleHover2 = () => {
     setHovered2(!isHovered2);
   };
 
+  // hovered state
   const [isHovered3, setHovered3] = useState<boolean>(false);
 
+  // handler to set the hovered state to oposite its value
   const handleHover3 = () => {
     setHovered3(!isHovered3);
   };
 
+  // animation hook
   const control = useAnimation();
 
+  //
   const grayVariant: Variants = {
     hidden: {
       opacity: 0,
@@ -56,20 +67,36 @@ const FeaturesImages: FC = () => {
     },
   };
 
+  // whenever hovered changes set control start to visible
   useEffect(() => {
     if (isHovered1 || isHovered2 || isHovered3) {
       control.start("visible");
     }
   }, [isHovered1, isHovered2, isHovered3]);
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
-      <div
-        className="flex justify-center items-center h-full relative cursor-pointer"
+
+
+
+
+      
+      {/* when the mouse enters set handle hover to oposite and likewise */}
+      {/* <div
+        className="flex w-[40.75rem] overflow-hidden rounded-xl  justify-center relative cursor-pointer items-center h-[40.75rem]"
         onMouseEnter={handleHover1}
         onMouseLeave={handleHover1}
-      >
-        <Image src={image1} alt="image1" className="w-full h-auto" />
-        {isHovered1 && (
+      > */}
+        {/*  */}
+        {/* <Image
+          style={{ height: "100%", flexGrow: 1, objectFit: "cover" }}
+          src={image1}
+          alt="image1"
+          className="w-full h-full"
+        /> */}
+
+        {/* if hover is active  */}
+        {/* {isHovered1 && (
           <motion.div
             className="h-full w-full bg-black/50 absolute"
             variants={grayVariant}
@@ -91,14 +118,22 @@ const FeaturesImages: FC = () => {
             </div>
           </motion.div>
         )}
-      </div>
-      <div
-        className="flex justify-center relative cursor-pointer items-center h-full"
+      </div> */}
+
+      {/*  */}
+
+      {/* <div
+        className="flex w-[40.75rem] overflow-hidden rounded-xl  justify-center relative cursor-pointer items-center h-[40.75rem]"
         onMouseEnter={handleHover2}
         onMouseLeave={handleHover2}
-      >
-        <Image src={image2} alt="image2" className="w-full h-auto" />
-        {isHovered2 && (
+      > */}
+        {/* <Image
+          style={{ height: "100%", flexGrow: 1, objectFit: "cover" }}
+          src={image2}
+          alt="image2"
+          className="w-full h-full"
+        /> */}
+        {/* {isHovered2 && (
           <motion.div
             className="h-full w-full bg-black/50 absolute"
             variants={grayVariant}
@@ -120,13 +155,20 @@ const FeaturesImages: FC = () => {
             </div>
           </motion.div>
         )}
-      </div>
-      <div
-        className="flex justify-center items-center h-full relative cursor-pointer"
+      </div> */}
+
+      {/*  */}
+      {/* <div
+        className="flex overflow-hidden rounded-xl    justify-center relative cursor-pointer items-center w-[40.75rem] h-[40.75rem]"
         onMouseEnter={handleHover3}
         onMouseLeave={handleHover3}
       >
-        <Image src={image3} alt="image3" className="w-full h-auto" />
+        <Image
+          style={{ height: "100%", flexGrow: 1, objectFit: "cover" }}
+          src={image3}
+          alt="image3"
+          className="w-full h-full"
+        />
         {isHovered3 && (
           <motion.div
             className="h-full w-full bg-black/50 absolute"
@@ -149,7 +191,8 @@ const FeaturesImages: FC = () => {
             </div>
           </motion.div>
         )}
-      </div>
+      </div> */}
+      
     </div>
   );
 };

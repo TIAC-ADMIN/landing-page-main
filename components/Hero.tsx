@@ -5,7 +5,7 @@ import illustration from "@/public/assets/illustration.svg";
 import facebookIcon from "@/public/assets/facebook-icon.svg";
 import twitterIcon from "@/public/assets/twitter-icon.svg";
 import igIcon from "@/public/assets/ig-icon.svg";
-import oval from "@/public/assets/Oval.svg";
+// import oval from "@/public/assets/Oval.svg";
 import Image from "next/image";
 import { Link } from "react-scroll";
 import { motion, AnimatePresence } from "framer-motion";
@@ -70,7 +70,7 @@ const Hero: FC = () => {
   };
 
   return (
-    <div className="bg-[linear-gradient(45deg,_#C86DD7_0%,_#3023AE_100%)] h-screen w-full mx-auto relative overflow-hidden">
+    <div className="bg-[linear-gradient(45deg,_#9BBFFA_0%,_#274EA3_100%)] h-screen w-full mx-auto relative overflow-hidden">
       <Navbar navOpen={navOpen} setNavOpen={setNavOpen} />
       <AnimatePresence>
         {navOpen && (
@@ -198,10 +198,7 @@ const Hero: FC = () => {
           </FadeIn>
           <FadeIn delay={0.4} direction="right">
             <p className="font-semibold text-white md:w-[346px] lg:w-[370px]">
-            Empower african youth through innovative initiatives.
-             
-Foster communities while cultivating bright futures
-
+              HELP US BUILD A COMMUNITY CENTRE IN MABOKONI VILLAGE, KENYA.
             </p>
           </FadeIn>
           <FadeIn delay={0.6} direction="right">
@@ -221,9 +218,9 @@ Foster communities while cultivating bright futures
             />
           </FadeIn>
 
-          <div className="rounded-full h-[59px] w-[59px] lg:h-[100px] lg:w-[100px] bg-[linear-gradient(45deg,_#C86DD7_0%,_#3023AE_100%)] absolute lg:-left-[50px] lg:bottom-40 -left-[30px] md:bottom-56 bottom-20 -z-10"></div>
+          {/* <div className="rounded-full h-[59px] w-[59px] lg:h-[100px] lg:w-[100px] bg-[linear-gradient(45deg,_#C86DD7_0%,_#3023AE_100%)] absolute lg:-left-[50px] lg:bottom-40 -left-[30px] md:bottom-56 bottom-20 -z-10"></div>
 
-          <div className="rounded-full h-[91px] w-[91px] lg:h-[156px] lg:w-[156px] bg-[linear-gradient(45deg,_#C86DD7_0%,_#3023AE_100%)] absolute right-2 top-8 -z-10"></div>
+          <div className="rounded-full h-[91px] w-[91px] lg:h-[156px] lg:w-[156px] bg-[linear-gradient(45deg,_#C86DD7_0%,_#3023AE_100%)] absolute right-2 top-8 -z-10"></div> */}
         </div>
       </div>
 
@@ -233,13 +230,13 @@ Foster communities while cultivating bright futures
         <Image src={igIcon} alt="instagram" className="h-8 w-8" />
       </div>
 
-      <Image
+      {/* <Image
         src={oval}
         alt="oval"
         className="absolute -right-10 lg:right-0 lg:-bottom-[200px] -bottom-20 h-[232px] w-[232px] lg:h-[396px] lg:w-[396px]"
-      />
+      /> */}
 
-      <div className="rounded-full h-[46px] w-[46px] lg:h-[78px] lg:w-[78px] bg-[linear-gradient(45deg,_#C86DD7_0%,_#3023AE_100%)] opacity-50 absolute lg:-right-[50px] -right-7 lg:top-8 z-20 top-64"></div>
+      {/* <div className="rounded-full h-[46px] w-[46px] lg:h-[78px] lg:w-[78px] bg-[linear-gradient(45deg,_#C86DD7_0%,_#3023AE_100%)] opacity-50 absolute lg:-right-[50px] -right-7 lg:top-8 z-20 top-64"></div> */}
     </div>
   );
 };

@@ -65,7 +65,7 @@ const HomeComponent: FC = () => {
             >
               <p className="font-semibold text-fontBlack">
                 {" "}
-                Promoting Inclusion and Diversity
+                WHAT DO WE SPECIALIZE IN?
               </p>
               <motion.div
                 animate={{ rotate: p1 ? 180 : 0 }}
@@ -84,8 +84,10 @@ const HomeComponent: FC = () => {
                   animate="visible"
                   exit="hidden"
                 >
-                  Inclusion and diversity ensure that everyone has equal access
-                  to opportunities and resources, regardless of their background
+                  Our organization is dedicated to bridging the gap in access to
+                  development opportunities among young people, with a
+                  particular focus on skateboarding, the arts, and creative
+                  expression.
                 </motion.p>
               )}
             </AnimatePresence>
@@ -105,9 +107,7 @@ const HomeComponent: FC = () => {
                 scale: 1.05,
               }}
             >
-              <p className="font-semibold text-fontBlack">
-                Creating opportunities
-              </p>
+              <p className="font-semibold text-fontBlack">OBJECTIVE</p>
               <motion.div
                 animate={{ rotate: p2 ? 180 : 0 }}
                 initial={{ rotate: 0 }}
@@ -126,9 +126,10 @@ const HomeComponent: FC = () => {
                   animate="visible"
                   exit="hidden"
                 >
-                  Investments in creating opportunities have a long-term
-                  positive impact on individuals, families and communities.
-                  confidence, and resilience.
+                  We are dedicated to empowering young people by providing safe
+                  and free access to opportunities and resources that foster
+                  their growth and development in creativity and talent at the
+                  Mabokoni Village Initiative.
                 </motion.p>
               )}
             </AnimatePresence>
@@ -148,7 +149,7 @@ const HomeComponent: FC = () => {
                 scale: 1.05,
               }}
             >
-              <p className="font-semibold text-fontBlack">Social Justice</p>
+              <p className="font-semibold text-fontBlack">WHERE ARE WE?</p>
               <motion.div
                 animate={{ rotate: p3 ? 180 : 0 }}
                 initial={{ rotate: 0 }}
@@ -166,9 +167,8 @@ const HomeComponent: FC = () => {
                   animate="visible"
                   exit="hidden"
                 >
-                  We seek to create a society where fairness, equality and human
-                  dignity are upheld, where disparities are addressed, and where
-                  all individuals aim to reach their full potential.
+                  Our current initiative is in Mabokoni Village, a small
+                  community near the southern coast of Kenya.
                 </motion.p>
               )}
             </AnimatePresence>
