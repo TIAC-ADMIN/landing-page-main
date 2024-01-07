@@ -202,7 +202,7 @@ const Hero: FC = () => {
           </FadeIn>
           <FadeIn delay={0.4} direction="right">
             <p className="font-semibold text-white md:w-[346px] lg:w-[370px]">
-              HELP US BUILD A COMMUNITY CENTRE IN MABOKONI VILLAGE, KENYA.
+              HELP US BUILD THE MABOKONI VILLAGE SKATEPARK
             </p>
           </FadeIn>
           <FadeIn delay={0.6} direction="right">
