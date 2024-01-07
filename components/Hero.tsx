@@ -2,6 +2,8 @@
 import React, { FC, useState } from "react";
 import Navbar from "./Navbar";
 import illustration from "@/public/assets/illustration.svg";
+import illustration2 from "@/public/assets/illustration2.svg";
+
 import facebookIcon from "@/public/assets/facebook-icon.svg";
 import twitterIcon from "@/public/assets/twitter-icon.svg";
 import igIcon from "@/public/assets/ig-icon.svg";
@@ -192,9 +194,11 @@ const Hero: FC = () => {
         {/* writing */}
         <div className="flex flex-col items-start p-2 gap-5 lg:gap-8">
           <FadeIn delay={0.2} direction="right">
-            <h1 className="font-poppins font-bold text-[56px] leading-[64px] lg:text-[72px] lg:leading-[72px] lg:w-[335px] w-[261px] text-white">
-              TIA Creative
-            </h1>
+            <Image
+              src={illustration2}
+              alt="illustration2"
+              className="place-content-start"
+            />
           </FadeIn>
           <FadeIn delay={0.4} direction="right">
             <p className="font-semibold text-white md:w-[346px] lg:w-[370px]">
@@ -225,9 +229,27 @@ const Hero: FC = () => {
       </div>
 
       <div className="flex items-center gap-4 absolute lg:bottom-8 bottom-2 md:bottom-4 right-16 lg:right-12 xl:right-36 p-8 z-20">
-        <Image src={facebookIcon} alt="facebook" className="h-8 w-8" />
-        <Image src={twitterIcon} alt="twitter" className="h-8 w-8" />
-        <Image src={igIcon} alt="instagram" className="h-8 w-8" />
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image src={facebookIcon} alt="facebook" width={32} height={32} />
+        </a>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image src={twitterIcon} alt="twitter" width={32} height={32} />
+        </a>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image src={igIcon} alt="instagram" width={32} height={32} />
+        </a>
       </div>
 
       {/* <Image
