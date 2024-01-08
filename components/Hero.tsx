@@ -244,7 +244,7 @@ const Hero: FC = () => {
           <Image src={twitterIcon} alt="twitter" width={32} height={32} />
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/t.i.africacreative/"
           target="_blank"
           rel="noopener noreferrer"
         >
