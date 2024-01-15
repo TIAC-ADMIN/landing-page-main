@@ -13,21 +13,21 @@ import { Link } from "react-scroll";
 import { motion, AnimatePresence } from "framer-motion";
 import FadeIn from "./FadeIn";
 
-interface ListItemsProps {
-  id: number;
-  name: string;
-  url: string;
-}
+// interface ListItemsProps {
+//   id: number;
+//   name: string;
+//   url: string;
+// }
 
 const Hero: FC = () => {
   const [navOpen, setNavOpen] = useState<boolean>(false);
 
   const listItems: ListItemsProps[] = [
     { id: 1, name: "Home", url: "homepage" },
-    { id: 2, name: "Features", url: "features" },
+    { id: 2, name: "", url: "features" },
     { id: 3, name: "Works", url: "works" },
     { id: 4, name: "About", url: "about" },
-    { id: 5, name: "People", url: "people" },
+    { id: 5, name: "", url: "people" },
     { id: 6, name: "News", url: "news" },
   ];
 
@@ -73,7 +73,7 @@ const Hero: FC = () => {
 
   return (
     <div className="bg-[linear-gradient(45deg,_#9BBFFA_0%,_#274EA3_100%)] h-screen w-full mx-auto relative overflow-hidden">
-      <Navbar navOpen={navOpen} setNavOpen={setNavOpen} />
+      {/* <Navbar navOpen={navOpen} setNavOpen={setNavOpen} /> */}
       <AnimatePresence>
         {navOpen && (
           <motion.div

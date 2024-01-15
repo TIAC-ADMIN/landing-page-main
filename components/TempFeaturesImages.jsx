@@ -16,8 +16,8 @@ const FeaturesImages = () => {
 
 
   const [imageMetadata, setImageMetadata] = useState([
-    { hovering: false, title: "hello1", desc: 'bye"' },
-    { hovering: false, title: "hello2", desc: 'bye"' },
+    { hovering: false, title: "Skate Park", desc: 'Empowering Though Sports"' },
+    { hovering: false, title: "Community Centre", desc: 'bye"' },
     { hovering: false, title: "hello3", desc: 'bye"' },
   ]);
 
@@ -83,7 +83,7 @@ const FeaturesImages = () => {
       opacity: 1,
 
       transition: {
-        duration: 0.8,
+        duration: 0.2,
         when: "beforeChildren",
         staggerChildren: 0.2,
       },
