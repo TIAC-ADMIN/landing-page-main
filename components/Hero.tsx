@@ -213,7 +213,7 @@ const Hero: FC = () => {
         </div>
         {/* illustration */}
 
-        <div className="z-10 relative">
+        {/* <div className="z-10 relative">
           <FadeIn delay={0.2} direction="left">
             <Image
               src={illustration}
@@ -224,7 +224,7 @@ const Hero: FC = () => {
 
           {/* <div className="rounded-full h-[59px] w-[59px] lg:h-[100px] lg:w-[100px] bg-[linear-gradient(45deg,_#C86DD7_0%,_#3023AE_100%)] absolute lg:-left-[50px] lg:bottom-40 -left-[30px] md:bottom-56 bottom-20 -z-10"></div>
 
-          <div className="rounded-full h-[91px] w-[91px] lg:h-[156px] lg:w-[156px] bg-[linear-gradient(45deg,_#C86DD7_0%,_#3023AE_100%)] absolute right-2 top-8 -z-10"></div> */}
+          <div className="rounded-full h-[91px] w-[91px] lg:h-[156px] lg:w-[156px] bg-[linear-gradient(45deg,_#C86DD7_0%,_#3023AE_100%)] absolute right-2 top-8 -z-10"></div> */} */}
         </div>
       </div>
 
