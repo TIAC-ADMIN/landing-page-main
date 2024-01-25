@@ -24,10 +24,10 @@ const Hero: FC = () => {
 
   const listItems: ListItemsProps[] = [
     { id: 1, name: "Home", url: "homepage" },
-    { id: 2, name: "", url: "features" },
+    { id: 2, name: "Features", url: "features" },
     { id: 3, name: "Works", url: "works" },
     { id: 4, name: "About", url: "about" },
-    { id: 5, name: "", url: "people" },
+    { id: 5, name: "People", url: "people" },
     { id: 6, name: "News", url: "news" },
   ];
 
