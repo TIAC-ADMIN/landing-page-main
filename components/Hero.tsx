@@ -13,11 +13,11 @@ import { Link } from "react-scroll";
 import { motion, AnimatePresence } from "framer-motion";
 import FadeIn from "./FadeIn";
 
-// interface ListItemsProps {
-//   id: number;
-//   name: string;
-//   url: string;
-// }
+interface ListItemsProps {
+  id: number;
+  name: string;
+  url: string;
+}
 
 const Hero: FC = () => {
   const [navOpen, setNavOpen] = useState<boolean>(false);
