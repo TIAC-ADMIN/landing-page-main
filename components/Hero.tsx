@@ -193,6 +193,11 @@ const Hero: FC = () => {
       <div className="flex flex-col lg:flex-row lg:items-center justify-between p-2 lg:pt-16 lg:px-12 xl:px-36">
         {/* writing */}
         <div className="flex flex-col items-start p-2 gap-5 lg:gap-8">
+          <FadeIn delay={0.4} direction="right">
+            <p className="font-bold text-white text-2xl md:w-[346px] lg:w-[370px]">
+              HELP US BUILD THE MABOKONI VILLAGE SKATEPARK
+            </p>
+          </FadeIn>
           <FadeIn delay={0.2} direction="right">
             <Image
               src={illustration2}
@@ -200,11 +205,11 @@ const Hero: FC = () => {
               className="place-content-start"
             />
           </FadeIn>
-          <FadeIn delay={0.4} direction="right">
+          {/* <FadeIn delay={0.4} direction="right">
             <p className="font-semibold text-white md:w-[346px] lg:w-[370px]">
               HELP US BUILD THE MABOKONI VILLAGE SKATEPARK
             </p>
-          </FadeIn>
+          </FadeIn> */}
           <FadeIn delay={0.6} direction="right">
             <button className="rounded-full bg-[#FFC300] p-2 px-16 font-bold text-white border border-[#FFC300] hover:bg-transparent hover:text-[#FFC300] transition-all duration-500">
               Join Us
@@ -234,14 +239,14 @@ const Hero: FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         > */}
-          {/* <Image src={facebookIcon} alt="facebook" width={32} height={32} />
+        {/* <Image src={facebookIcon} alt="facebook" width={32} height={32} />
         </a>
         <a
           href="https://www.twitter.com"
           target="_blank"
           rel="noopener noreferrer"
         > */}
-          {/* <Image src={twitterIcon} alt="twitter" width={32} height={32} />
+        {/* <Image src={twitterIcon} alt="twitter" width={32} height={32} />
         </a> */}
         <a
           href="https://www.instagram.com/t.i.africacreative/"
